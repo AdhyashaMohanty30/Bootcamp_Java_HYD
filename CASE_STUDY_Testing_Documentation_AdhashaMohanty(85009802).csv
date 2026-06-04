@@ -1,0 +1,69 @@
+Project Name:,ZEE5.com,,,,,,,
+Module Name:,End to End testing,Date Updated:,5/30/2026,,,,,
+Last Build Tested:,,Reviewed By:,Raghavendra BN,,,,,
+Run No:,8 Test Cases,Executed By:,Adhyasha Mohanty,,,,,
+Run Date:,5/30/2026,,,,,,,
+Test Objectives:,Mapping Test Scenarios with Test Cases (ZEE5.com),,,,,,,
+Test Setup:,MS Excel Sheet (Online),,,,,,,
+Req_Id, Test_Case ID,Test_Case_Description,Test_steps,Test_Data,Expected_Result,Actual_Result,Status,Screenshots
+Req_1.0,TC_01,Verify user can register with valid details,"1.User should open Microsoft Edge browser
+2.User should navigate to https://www.zee5.com/
+3.User should click on Sign Up/Register option on the ZEE5 homepage
+4.User should enter valid Full Name, Email ID/Mobile Number and Password
+5.User should verify OTP if required
+6.User should click on Register/Submit button","Url: https://www.zee5.com/
+Name: Stuti
+Email: ABC@gmail.com
+OTP: ******
+Mobile: 123456",User account should be created successfully and user should be redirected to homepage,User account created successfully,Passed,Picture
+Req_1.1,TC_02,Verify user can login with valid credentials,"1. Open Microsoft Edge browser
+2. Navigate to https://www.zee5.com/
+3. Click on Login
+4. Enter valid Email and the otp sent to the mail id 
+5. Click on Login button","Email: ABC@gmail.com
+OTP: ******",User should login successfully and dashboard should be displayed,User should login successfully and dashboard should be displayed,Passed,Picture
+Req_1.2,TC_03,Verify dashboard page is displayed after login,"1. Open Microsoft Edge browser
+2. Navigate to https://www.zee5.com/
+3. Click on Login
+4. Enter valid Email and the OTP sent to the mail id
+5. Click on Login button
+6. Verify user is redirected to homepage/dashboard","Email: ABC@gmail.com
+OTP: ******",User should be redirected to homepage/dashboard,User redirected successfully,Passed,Picture
+Req_1.3,TC_04,Verify user can browse content,"1. User should open Microsoft Edge browser
+2. User should navigate to https://www.zee5.com/
+3. User should locate the search bar on the ZEE5 homepage
+4. User should enter a content name (e.g., Movies, Shows, Web Series) into the search bar
+5. User should click on the Search icon or press Enter",NA,Content categories should be displayed,Content displayed successfully,Passed,Picture
+Req_1.4,TC_06,Verify user can stream video,"1. User should open Microsoft Edge browser
+2. User should navigate to https://www.zee5.com/
+3. User should click on Login
+4. User should enter valid Email and Password
+5. User should click on Login button
+6. User should locate the search bar on the homepage
+7. User should search for any content (e.g., Movies)
+8. User should select any video from the search results
+9. User should click on the selected video
+10. User should click on the Play button
+11,. User should verify that the video starts streaming",Video: Any available content ,Video should play successfully,Video played successfully,Passed,Picture
+Req_1.5,TC_07,Verify user can subscribe to plan,"1. User should open Microsoft Edge browser
+2. User should navigate to https://www.zee5.com/
+3. User should click on Login
+4. User should enter valid Email and Password
+5. User should click on Login button
+8. User should click on Buy Plan option
+9. User should select any subscription plan
+10. User should proceed to payment
+11 User should complete the payment process
+12 User should verify that the subscription is activated successfully",Plan details,Subscription should be activated,Subscription activated,Passed,Picture
+Req_1.6,TC_08,Verify user can logout,"1. User should open Microsoft Edge browser
+2. User should navigate to https://www.zee5.com/
+3. User should click on Login
+4. User should enter valid Email and Password
+5. User should click on Login button
+6. User should click on Profile icon/user menu
+7. User should click on My Account                                                                                                8. User should click on Logout button
+8. User should verify that the user is logged out successfully
+9. User should verify that the user is redirected to the login page or homepage",NA, User should be logged out,User logged out successfully,Passed,Picture
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
